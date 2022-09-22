@@ -2,6 +2,8 @@
 
 PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 
+echo -e "\n~~~ Book A Salon Appointment~~~"
+
 SERVICE_MENU(){
 if [[ $1 ]]
 then
